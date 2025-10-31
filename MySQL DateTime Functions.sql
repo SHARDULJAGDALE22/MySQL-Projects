@@ -1,0 +1,11 @@
+select * from sakila.payment;
+select date(payment_date) as Dates from sakila.payment;
+select time(last_update) as Time from sakila.payment;
+select day(payment_date) as Days from sakila.payment;
+select dayname(payment_date) as Days from sakila.payment;
+select month(payment_date) as Month from sakila.payment;
+select monthname(payment_date) as Month_Name from sakila.payment;
+select year(payment_date) as Year from sakila.payment; 
+select hour(payment_date) as hours from sakila.payment;
+select minute(payment_date) as minute from sakila.payment;
+select second(payment_date) as sec from sakila.payment; 
